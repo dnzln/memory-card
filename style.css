@@ -36,11 +36,12 @@ body {
     transform-style: preserve-3d;
 }
 
-.game-card:hover {
+.game-card-click {
     transform: rotateY(180deg);
 }
 
-.front, .back {
+.front, 
+.back {
 	backface-visibility: hidden;
 	position: absolute;
 	top: 0;
@@ -102,3 +103,9 @@ body {
         margin: 0 auto 24px auto;
     }
 }
+
+.hidden {
+    border: 3px solid #ffffff;
+    visibility: hidden;
+}
+
